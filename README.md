@@ -1,7 +1,5 @@
 # KubeLibrary
 
-
-
 RobotFramework library for testing Kubernetes cluster
 
 ## Quick start
