@@ -1,5 +1,5 @@
 # KubeLibrary
-[![DevOpsSpiral](https://circleci.com/gh/devopsspiral/KubeLibrary/tree/circleci-demo.svg?style=svg)](https://app.circleci.com/pipelines/github/devopsspiral/KubeLibrary)
+[![DevOpsSpiral](https://circleci.com/gh/devopsspiral/KubeLibrary/tree/circleci-demo.svg?style=svg)](https://app.circleci.com/pipelines/github/devopsspiral/KubeLibrary)![PyPI - License](https://img.shields.io/pypi/l/robotframework-kubelibrary)![PyPI](https://img.shields.io/pypi/v/robotframework-kubelibrary)[![Slack](https://img.shields.io/badge/slack-robotframework%23kubernetes-blue)](https://robotframework.slack.com/archives/C017AKKS06R)
 
 
 RobotFramework library for testing Kubernetes cluster
