@@ -1,4 +1,6 @@
 # KubeLibrary
+[![DevOpsSpiral](https://circleci.com/gh/devopsspiral/KubeLibrary.svg?style=svg)](https://app.circleci.com/pipelines/github/devopsspiral/KubeLibrary)
+
 
 RobotFramework library for testing Kubernetes cluster
 
