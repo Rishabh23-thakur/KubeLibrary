@@ -10,7 +10,9 @@ jobs:
       PYTHONPATH=./src
     steps:
       - checkout
+      - python/load-cache
       - python/install-deps
+      - python/save-cache
       - python/test
 
 workflows:
