@@ -40,6 +40,12 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Verify setup.py and changelog
+          command:
+            SEMVER="${CIRCLE_TAG:1}"
+            grep version='"'$SEMVER'"' setup.py
+            grep "## \[$SEMVER\]" CHANGELOG.md
+      - run:
           name: Publish to PYPI
           command: |
             pip install twine
