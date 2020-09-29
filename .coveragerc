@@ -2,3 +2,6 @@
 command_line = -m unittest discover
 source =
     src/
+
+[report]
+fail_under = 67
