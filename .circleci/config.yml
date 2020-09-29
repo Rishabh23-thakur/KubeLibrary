@@ -41,7 +41,7 @@ jobs:
       - checkout
       - run:
           name: Verify setup.py and changelog
-          command:
+          command: |
             SEMVER="${CIRCLE_TAG:1}"
             grep version='"'$SEMVER'"' setup.py
             grep "## \[$SEMVER\]" CHANGELOG.md
